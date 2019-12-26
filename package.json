@@ -1,0 +1,54 @@
+{
+  "_from": "md-file-tree",
+  "_id": "md-file-tree@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-dbuE5d6nG0UPbvUBMoJth/AK1154ZvGubUxd391Mc7JvKtVx8YxKD8dv1nOYFSOxGm/xxDUJBLVxnqqwDOhj1Q==",
+  "_location": "/md-file-tree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "md-file-tree",
+    "name": "md-file-tree",
+    "escapedName": "md-file-tree",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/md-file-tree/-/md-file-tree-0.2.0.tgz",
+  "_shasum": "3bcebcc6276e905d8447cb9aacad5fb22ecc4d96",
+  "_spec": "md-file-tree",
+  "_where": "/Users/sean/Projects/Git/markdown-tree",
+  "author": {
+    "name": "Michał Budzyński",
+    "email": "michal@virtualdesign.pl"
+  },
+  "bin": {
+    "md-file-tree": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/michalbe/md-file-tree/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "event-state": "^0.3.5"
+  },
+  "deprecated": false,
+  "description": "Generate markdown tree of all the files in a directory, recursively.",
+  "devDependencies": {
+    "jshint": "^2.10.2"
+  },
+  "homepage": "https://github.com/michalbe/md-file-tree#readme",
+  "name": "md-file-tree",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/michalbe/md-file-tree.git"
+  },
+  "scripts": {
+    "lint": "jshint ."
+  },
+  "version": "0.2.0"
+}
